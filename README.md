@@ -1,6 +1,5 @@
 # Instance_Segmentation
 이미지내 객체들을 Mask R-CNN을 통해 탐지합니다.
----
 ## 프로젝트 설명
 1. RGBD 카메라 데이터를 통해 객체들의 위치를 탐지하기 전 각 객체들의 마스크 데이터를 얻기 위해 Mask R-CNN 모델을 사용하였습니다.
 2. 객체 탐지에는 Classification, Semantic Segmentation, Instance Segmentaion과 같은 종류가 있는데 각각의 객체들에 대한 마스크 정보가 필요하여 Mask R-CNN모델을 사용하였습니다.
